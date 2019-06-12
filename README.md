@@ -14,4 +14,4 @@ Identified bugs and feature requests are tracked using [Github Issues](https://g
 
 ## Pull requests / How to participate into development
 You are invited to send pull requests to the dev branch whenever you think you can contribute with some useful improvements to the package.
-The package maintainer will review you code and decide whether it is going to be part of the package in a future release.
+The package maintainer will review your code and decide whether it is going to be part of the package in a future release.
