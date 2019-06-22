@@ -3190,12 +3190,12 @@ m/^((\S+) ((([0-9]+)-([0-9]+)-([0-9]+))_(([0-9]+):([0-9]+):([0-9]+))) (\d+) (?:\
                     }
                 }
 
-                else {
-                    Log 5,
-                        __PACKAGE__
-                      . "::__GetUpdatedata: $file: Ignoring line\n  "
-                      . $l;
-                }
+                # else {
+                #     Log 5,
+                #         __PACKAGE__
+                #       . "::__GetUpdatedata: $file: Ignoring line\n  "
+                #       . $l;
+                # }
             }
             close($fh);
         }
@@ -3294,7 +3294,7 @@ sub __SetXVersion {
       "abstract": "FHEM Entwickler Paket, um Metadaten Unterstützung zu aktivieren"
     }
   },
-  "version": "v0.6.3",
+  "version": "v0.6.4",
   "release_status": "testing",
   "x_changelog": {
     "2019-04-18": {
