@@ -1,4 +1,4 @@
-# $Id: Meta.pm 19401 2019-05-18 12:06:32Z loredo $
+# $Id$
 
 package main;
 use strict;
