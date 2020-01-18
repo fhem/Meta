@@ -1300,7 +1300,7 @@ m/(->\{VERSION\}\s+=\s+[^v\d]*(v?(?:\d{1,3}\.\d{1,3}(?:\.\d{1,3})?)))/i
                 && !$item_summary
                 && $l =~ m/^=item\s+(summary)\s+(.+)$/i )
             {
-                return "=item summary_DE pod must occur only once"
+                return "=item summary pod must occur only once"
                   if ($item_summary);
                 $item_summary =
                   ( $encoding && $encoding eq "utf8" ) ? encode_utf8($2) : $2;
